@@ -1,0 +1,402 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+ 
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #f39ac8, #ff6298);
+    color: #fff;
+}
+
+.nav-logo img {
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #fffbf0;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-heading {
+    font-family: 'Roboto', sans-serif; /* Custom Google Font */
+    font-size: 36px;
+    font-weight: 700; /* Bold font */
+    line-height: 1.4;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+}
+
+.hero-buttons .cta-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cta-button.download {
+    background-color: #f39ac8;
+    color: #fff;
+}
+
+.cta-button.driver {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Sign-Up Form */
+.sign-up-container {
+    padding: 40px;
+    background: #fffbf0;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cta-button {
+    background-color: #f39ac8;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #ff6298;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Login Page */
+.login-body {
+    background: #f2f2f2;
+}
+
+.login-logo-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button {
+    background-color: #f39ac8;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #ff6298;
+}
+.hero-image img {
+   width: 350px;  /* Set desired width */
+    height: 310px; /* Set desired height */
+border-radius: 15px;
+}
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* File Case Page */
+.file-case-page {
+    background-color: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding-bottom: 40px;
+}
+
+/* Header Section */
+.file-case-header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.file-case-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.file-case-header p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Immediate Assistance Section */
+.file-case-helpline {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-case-helpline h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.file-case-helpline p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.file-case-helpline a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.file-case-helpline a:hover {
+    text-decoration: underline;
+}
+
+/* Form Section */
+.file-case-form {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.file-case-form h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Section Titles */
+.file-case-form section h2 {
+    font-size: 22px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Form Inputs */
+.file-case-form input,
+.file-case-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.file-case-form input:focus,
+.file-case-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit Button */
+.file-case-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-case-form button:hover {
+    background-color: #45a049;
+}
+
+/* Consent Section */
+.file-case-consent {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.file-case-consent input {
+    margin-right: 10px;
+}
+
+/* Footer Section */
+.file-case-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.file-case-footer p {
+    margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .file-case-header {
+        padding: 30px 15px;
+    }
+
+    .file-case-form {
+        padding: 20px;
+    }
+
+    .file-case-form input,
+    .file-case-form textarea {
+        font-size: 14px;
+    }
+
+    .file-case-form button {
+        font-size: 16px;
+    }
+}
+
+/* Header Section */
+.file-case-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Aligns content vertically */
+    align-items: center;    /* Aligns content horizontally */
+    text-align: center;
+    background-color: #4CAF50; /* Background color */
+    color: white;             /* Text color */
+    padding: 40px 20px;       /* Padding for spacing */
+    border-radius: 10px;      /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;       /* Allows positioning */
+    top: 0;                   /* Ensures it's at the top */
+    margin: 0 auto;           /* Centered horizontally in the viewport */
+    width: 100%;              /* Occupies full width */
+    max-width: 1200px;        /* Optional: Set a max width */
+}
+
+.file-case-header h1 {
+    font-size: 36px; /* Adjusted for visibility */
+    margin: 0;       /* Remove default margin */
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.file-case-header p {
+    font-size: 18px; /* Adjusted for visibility */
+    margin-top: 10px; /* Space between heading and paragraph */
+    font-weight: 300; /* Lighter text weight */
+}
+
+

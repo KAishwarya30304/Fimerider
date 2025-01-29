@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FemiRiders</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #111; /* Black background */
+            color: #fff;
+        }
+
+        .login-container {
+            background: linear-gradient(145deg, #222, #1a1a1a);
+            border-radius: 15px;
+            padding: 40px 30px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .login-logo img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            border: 2px solid #ff007f; /* Hot pink border */
+        }
+
+        .login-container h2 {
+            color: #ff007f; /* Pink heading */
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .login-container p {
+            color: #bbb;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #ddd;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background-color: #222;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .form-group input:focus {
+            border-color: #ff007f;
+            outline: none;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff007f;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #e60073;
+        }
+
+        .login-container p a {
+            color: #ff007f;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .login-container p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-logo">
+            <img src="path/to/logo.png" alt="FemiRiders Logo">
+        </div>
+        <h2>Welcome Back!</h2>
+        <p>Sign in to continue your safe journey with FemiRiders.</p>
+        <form action="index.html" method="post">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+        <p>New here? <a href="signup-passenger.html">Create an account</a></p>
+    </div>
+</body>
+</html>

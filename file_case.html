@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File a Case - Report Misuse</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+</head>
+<body class="file-case-page">
+
+    <!-- Header Section -->
+    <header class="file-case-header">
+        <h1>File a Case - Report Misuse</h1>
+        <p>Fill in the details below to report an incident and file a case.</p>
+    </header>
+
+    <!-- Immediate Assistance Section (On-the-Spot Call) -->
+    <section class="file-case-helpline">
+        <h2>Immediate Assistance - On-the-Spot Call</h2>
+        <p>If you need urgent help or feel unsafe, please contact the nearest police station immediately.</p>
+        <p>Our team will reach you in <strong>under a minute</strong> to ensure your safety.</p>
+        <p><strong>Contact Police Station: <a href="tel:+1234567890">+1-234-567-890</a></strong></p>
+        <p>For immediate emergencies, dial <strong>911</strong> for immediate police intervention.</p>
+        <p>Ensure to provide your location and situation clearly to get the fastest response.</p>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="file-case-form">
+        <form action="/submit_case" method="POST" enctype="multipart/form-data">
+            <!-- User Information Section -->
+            <section class="file-case-user-info">
+                <h2>Your Information</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name"><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address"><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number"><br><br>
+            </section>
+
+            <!-- Incident Details Section -->
+            <section class="file-case-incident-details">
+                <h2>Incident Details</h2>
+                <label for="description">Describe the Incident:</label><br>
+                <textarea id="description" name="description" rows="5" required placeholder="Provide a detailed description of the incident"></textarea><br><br>
+
+                <label for="incident_date">Date of Incident:</label>
+                <input type="date" id="incident_date" name="incident_date" required><br><br>
+
+                <label for="location">Location of Incident:</label>
+                <input type="text" id="location" name="location" required placeholder="Provide the location where the incident occurred"><br><br>
+            </section>
+
+            <!-- Incident Evidence Section -->
+            <section class="file-case-upload">
+                <h2>Upload Evidence (if available)</h2>
+                <label for="evidence">Upload Photos or Documents:</label>
+                <input type="file" id="evidence" name="evidence" accept="image/*, .pdf" multiple><br><br>
+            </section>
+
+            <!-- Consent and Confirmation Section -->
+            <section class="file-case-consent">
+                <h2>Consent and Agreement</h2>
+                <label for="agreement">
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    I confirm that the information provided is accurate and I agree to the terms and conditions of reporting a case.
+                </label><br><br>
+            </section>
+
+            <!-- Submit Section -->
+            <section class="file-case-submit">
+                <button type="submit">Submit Case</button>
+            </section>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="file-case-footer">
+        <p>&copy; 2025 FemiRiders. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+ 
